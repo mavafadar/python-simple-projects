@@ -16,3 +16,7 @@ For the source of this project click [Here](https://www.youtube.com/watch?v=FGdi
 ## Port Scanner
 We implement a port scanner script to scan the open ports in a given range of a specific IP address in this project. We do this process with multithreading to make it more efficient. Port scanning is illegal, and this script is for educational purposes. 
 For the source of this project click [Here](https://www.youtube.com/watch?v=FGdiSJakIS4&ab_channel=freeCodeCamp.org).
+
+## TCP Chatroom
+In this project, we implemented a simple TCP chatroom. A client can select a nickname in this chatroom, connect to the server, and chat with other clients connected to the server.
+For the source of this project click [Here](https://www.youtube.com/watch?v=FGdiSJakIS4&ab_channel=freeCodeCamp.org).
