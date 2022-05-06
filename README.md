@@ -12,3 +12,7 @@ For the source of this project click [Here](https://www.youtube.com/watch?v=XGf2
 ## DDoS Script
 In this project, we implement a simple python script for attacking an IP address with a specific number of processes. This script is not optimal and efficient but can be used for educational purposes.
 For the source of this project click [Here](https://www.youtube.com/watch?v=FGdiSJakIS4&ab_channel=freeCodeCamp.org).
+
+## Port Scanner
+We implement a port scanner script to scan the open ports in a given range of a specific IP address in this project. We do this process with multithreading to make it more efficient. Port scanning is illegal, and this script is for educational purposes. 
+For the source of this project click [Here](https://www.youtube.com/watch?v=FGdiSJakIS4&ab_channel=freeCodeCamp.org).
